@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ai-workshop
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        base-url: https://platform.ai.reksoft.com/api/v1
+        options:
+          model: minimax-m2
+
+logging:
+  level:
+    com.nwhite.ai.workshop: DEBUG
+    # SimpleLoggerAdvisor logs at DEBUG (see /advisor/logging)
+    org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG
