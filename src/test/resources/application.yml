@@ -2,3 +2,7 @@ spring:
   ai:
     openai:
       api-key: test
+      chat:
+        base-url: https://platform.ai.reksoft.com/api/v1
+        options:
+          model: minimax-m2
