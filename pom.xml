@@ -39,6 +39,12 @@
 			<groupId>org.springframework.ai</groupId>
 			<artifactId>spring-ai-starter-model-openai</artifactId>
 		</dependency>
+		<!-- AutoMemoryTools for the long-term memory demo (memory package) -->
+		<dependency>
+			<groupId>org.springaicommunity</groupId>
+			<artifactId>spring-ai-agent-utils</artifactId>
+			<version>0.13.0</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
